@@ -40,6 +40,7 @@
 // Carousel
 // Close
 // Code
+@use 'sass:math';
 
 @mixin _assert-ascending($map, $map-name) {
   $prev-key: null;
@@ -81,7 +82,7 @@
   }
 }
 
-@use 'sass:math';
+
 
 
 // General variable structure
